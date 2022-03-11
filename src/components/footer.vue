@@ -39,6 +39,7 @@ export default {
 }
 .footer .content .sub {
     float: right;
+    text-align: right;
 }
 .footer a {
     text-decoration: none;
