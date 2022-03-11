@@ -3,7 +3,7 @@
         <div class="container">
             <div class="content">
                 <div class="sub">
-                    <strong>SDZJ V3.</strong>22.0311.01
+                    <strong>SDZJ V3.</strong>build.vue
                 </div>
                 Copyright &copy; 2013-{{ nowYear }}<br>
                 <strong><a href="https://www.disandadao.org/?lang=zh">第三大道公益服</a></strong> | 勿剽窃本服及本站创意

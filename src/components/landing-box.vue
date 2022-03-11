@@ -25,54 +25,6 @@ export default {
     background-size: cover;
 }
 
-.landing-box .nav {
-    height: 50px;
-    line-height: 50px;
-    letter-spacing: 1px;
-}
-
-.landing-box .nav img {
-    height: 100%;
-}
-.landing-box .nav .drop-nav {
-    display: inline-block;
-    vertical-align: top;
-    float: right;
-    position: relative;
-}
-.landing-box .nav .drop-nav svg.icon {
-    vertical-align: text-top;
-    cursor: pointer;
-}
-.landing-box .nav .drop-nav .drop-list {
-    position: absolute;
-    background: #fff;
-    border: 1px solid #cdcdcd;
-    border-radius: 3px;
-    width: 80px;
-    right: 0;
-    padding: 10px 0;
-    display: none;
-}
-.landing-box .nav .drop-nav:hover .drop-list {
-    display: block;
-}
-.landing-box .nav .drop-nav .drop-list a {
-    display: block;
-    text-align: center;
-    font-size: 14px;
-    line-height: 35px;
-}
-.landing-box .nav .drop-nav .drop-list a:hover {
-    background: #fafafa;
-}
-.landing-box .nav a {
-    color: #637599;
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 16px;
-}
-
 .landing-box .landing {
     margin-top: 30vh;
 }
@@ -80,7 +32,6 @@ export default {
     font-size: 30px;
     margin: 20px 0;
     color: #333;
-    font-weight: 500;
     letter-spacing: 2px;
     text-transform: uppercase;
     max-width: 80%;
@@ -89,7 +40,6 @@ export default {
 .landing-box .landing p {
     color: #666;
     font-size: 16px;
-    font-weight: 500;
     letter-spacing: 2px;
     text-transform: capitalize;
 }

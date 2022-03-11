@@ -89,7 +89,6 @@ body {
 h2.title {
     margin: 40px 0 0 0;
     font-size: 25px;
-    font-weight: 100;
     text-align: center;
     color: #333;
     text-transform: uppercase;
@@ -97,7 +96,6 @@ h2.title {
 
 .subtitle {
     text-align: center;
-    font-weight: 100;
     font-size: 16px;
     margin-bottom: 30px;
     letter-spacing: 3px;
