@@ -78,7 +78,6 @@ export default {
 .passby {
     text-align: center;
     margin: 40px 0;
-    font-weight: 100;
     color: #333;
 }
 .passby .before,
