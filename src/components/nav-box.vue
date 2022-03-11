@@ -87,9 +87,9 @@ export default {
     margin-left: 10px;
     text-transform: uppercase;
     background: #f5f5f5;
-    padding: 3px 16px;
+    padding: 5px 16px;
     border-radius: 3px;
-    font-size: 14px;
+    font-size: 13px;
 }
 @media screen and (max-width: 370px) {
     .nav-box .nav .icon {
