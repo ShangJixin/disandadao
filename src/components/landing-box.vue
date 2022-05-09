@@ -7,7 +7,8 @@
             </div>
         </div>
         <div class="container foobar">
-            <div class="guide">向下翻动，查看更多&nbsp;&darr;</div>
+            <span class="next">&raquo;</span>
+            <span class="guide">战服、8周目、三道的未来，来提意见吧</span>
         </div>
     </div>
 </template>
@@ -27,7 +28,9 @@ export default {
 }
 .landing-box .container.foobar {
     height: 20vh;
-    line-height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .landing-box {
     background: url(../assets/landing.jpg) center bottom no-repeat;
@@ -43,68 +46,47 @@ export default {
     margin: 20px 0;
 }
 
+.landing-box .next {
+    font-size: 16px;
+    height: 25px;
+    width: 25px;
+    text-align: center;
+    line-height: 25px;
+    box-sizing: content-box;
+    border: 2px solid #9AA8C5;
+    color: #9AA8C5;
+    font-weight: 600;
+}
 .landing-box .guide {
     font-size: 16px;
-    color: #999;
-    user-select: none;
+    color: #9AA8C5;
+    /* 兼容性保底 */
+    background: #fff;
+    background: #ffffffdd;
+    padding: 6px 10px;
 }
 
 @media screen and (max-width: 500px) {
     /* 手机端展示 限高，不能用100vh，不美观 */
-    /* 约定 60vh */
+    /* 约定 70vh */
     .landing-box .container.cover {
-        height: 60vh;
+        height: 50vh;
     }
     .landing-box .container.foobar {
-        /*
-        height: 20vh;
-        line-height: 20vh;
-        */
+        justify-content: center;
+    }
+    .landing-box .next {
         display: none;
     }
     .landing-box .container.cover {
         justify-content: center;
         text-align: center;
     }
+
     .landing-box {
         background-size: contain;
+        border-bottom: 3px solid #eee;
     }
 }
-/*
-.landing-box {
-    user-select: none;
-    height: 100vh;
-    background: #f8f8f8;
-    background: url(../assets/landing.jpg) center;
-    background-size: cover;
-}
 
-.landing-box .landing {
-    margin-top: 30vh;
-}
-.landing-box .landing h1 {
-    font-size: 30px;
-    margin: 20px 0;
-    color: #333;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    max-width: 80%;
-}
-
-.landing-box .landing p {
-    color: #666;
-    font-size: 16px;
-    letter-spacing: 2px;
-    text-transform: capitalize;
-}
-
-.guide {
-    position: absolute;
-    bottom: 0;
-    margin: 30px 0;
-    font-size: 14px;
-    color: #999;
-    text-transform: capitalize;
-}
-*/
 </style>
