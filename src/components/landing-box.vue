@@ -7,8 +7,8 @@
             </div>
         </div>
         <div class="container foobar">
-            <span class="next">&raquo;</span>
-            <span class="guide">战服、8周目、三道的未来，来提意见吧</span>
+            <a class="next" href="https://bbs.disandadao.org/" title="三道社区"><span>三道社区&nbsp;</span>&raquo;</a>
+            <a class="guide" href="https://bbs.disandadao.org/thread-86-1-1.html">战服、8周目、三道的未来，来提意见吧</a>
         </div>
     </div>
 </template>
@@ -48,22 +48,38 @@ export default {
 
 .landing-box .next {
     font-size: 16px;
-    height: 25px;
-    width: 25px;
+    height: 30px;
+    width: 30px;
     text-align: center;
-    line-height: 25px;
+    line-height: 30px;
     box-sizing: content-box;
     border: 2px solid #9AA8C5;
     color: #9AA8C5;
     font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+.landing-box .next span {
+    display: none;
+    font-weight: 500;
+    font-size: 14px;
+}
+.landing-box .next:hover {
+    width: auto;
+    padding: 0 10px;
+    transition: all 0.3s;
+}
+.landing-box .next:hover span {
+    display: inline-block;
 }
 .landing-box .guide {
-    font-size: 16px;
+    font-size: 14px;
     color: #9AA8C5;
     /* 兼容性保底 */
     background: #fff;
     background: #ffffffdd;
     padding: 6px 10px;
+    text-decoration: none;
 }
 
 @media screen and (max-width: 500px) {
