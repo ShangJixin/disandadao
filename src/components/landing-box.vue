@@ -20,13 +20,13 @@ export default {
 </script>
 
 <style lang="less" scoped>
-.landing-box .container.cover {
+.landing-box .cover {
     height: 80vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.landing-box .container.foobar {
+.landing-box .foobar {
     height: 20vh;
     display: flex;
     justify-content: space-between;
@@ -40,10 +40,12 @@ export default {
 .landing-box .landing h1 {
     font-size: 32px;
     margin: 20px 0;
+    text-transform: uppercase;
 }
 .landing-box .landing p {
     font-size: 16px;
     margin: 20px 0;
+    text-transform: capitalize;
 }
 
 .landing-box .next {
@@ -57,6 +59,9 @@ export default {
     color: #9AA8C5;
     font-weight: 600;
     text-decoration: none;
+    /* 兼容性保底 */
+    background: #fff;
+    background: #ffffffdd;
     transition: all 0.3s;
 }
 .landing-box .next span {
@@ -68,6 +73,8 @@ export default {
     width: auto;
     padding: 0 10px;
     transition: all 0.3s;
+    color: #637599;
+    border: 2px solid #637599;
 }
 .landing-box .next:hover span {
     display: inline-block;
@@ -80,22 +87,29 @@ export default {
     background: #ffffffdd;
     padding: 6px 10px;
     text-decoration: none;
+    border-left: 3px solid #9AA8C5;
+    transition: all 0.3s;
+}
+.landing-box .guide:hover {
+    border-left: 3px solid #637599;
+    color: #637599;
+    transition: all 0.3s;
 }
 
 @media screen and (max-width: 500px) {
     /* 手机端展示 限高，不能用100vh，不美观 */
     /* 约定 70vh */
     /* 又觉得 100vh 好看了，我真是个善变的机芯 */
-    .landing-box .container.cover {
+    .landing-box .cover {
         height: 80vh;
     }
-    .landing-box .container.foobar {
+    .landing-box .foobar {
         justify-content: center;
     }
     .landing-box .next {
         display: none;
     }
-    .landing-box .container.cover {
+    .landing-box .cover {
         justify-content: center;
         text-align: center;
     }
