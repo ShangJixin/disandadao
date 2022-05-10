@@ -7,8 +7,8 @@
             </div>
         </div>
         <div class="container foobar">
-            <a class="next" href="https://bbs.disandadao.org/" title="三道社区"><span>三道社区&nbsp;</span>&raquo;</a>
-            <a class="guide" href="https://bbs.disandadao.org/thread-86-1-1.html">战服、8周目、三道的未来，来提意见吧</a>
+            <a class="next" href="https://bbs.disandadao.org/" title="三道社区" target="_blank"><span>三道社区&nbsp;</span>&raquo;</a>
+            <a class="guide" href="https://bbs.disandadao.org/thread-86-1-1.html" target="_blank">战服、8周目、三道的未来，来提意见吧</a>
         </div>
     </div>
 </template>
