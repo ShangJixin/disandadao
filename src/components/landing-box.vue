@@ -85,8 +85,9 @@ export default {
 @media screen and (max-width: 500px) {
     /* 手机端展示 限高，不能用100vh，不美观 */
     /* 约定 70vh */
+    /* 又觉得 100vh 好看了，我真是个善变的机芯 */
     .landing-box .container.cover {
-        height: 50vh;
+        height: 80vh;
     }
     .landing-box .container.foobar {
         justify-content: center;
