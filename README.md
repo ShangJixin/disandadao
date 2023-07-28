@@ -2,19 +2,19 @@
 
 <br>
 
-<img src="https://github.com/ShangJixin/www.disandadao.org/assets/21075413/8e95941a-ae44-4329-9ef3-8cf326f378dd" align="right" width="200px" alt="Logo">
-
-<img src="https://github.com/ShangJixin/www.disandadao.org/assets/21075413/909144dd-d558-4f93-af5e-16ca92550e10" alt="Slogan">
+<div align="center"><img src="https://github.com/ShangJixin/www.disandadao.org/assets/21075413/909144dd-d558-4f93-af5e-16ca92550e10" alt="Slogan"></div>
 
 <br>
 
 ## 这里，是我们的故事
 
-第三大道公益服建立于 2013 年 7 月 12 日，到现在已经数年的历史。从 1.5.2 版本到现在，一直保持公益模式，并且今后会继续坚持下去，只为提供高质量的纯净 Minecraft 游戏平台。
-
-<img src="https://github.com/ShangJixin/www.disandadao.org/assets/21075413/11e0c6a9-ab43-4104-b927-5c4b43d89604" align="right" alt="Family">
+<img src="https://github.com/ShangJixin/www.disandadao.org/assets/21075413/8e95941a-ae44-4329-9ef3-8cf326f378dd" align="left" width="172px" alt="Logo">第三大道公益服建立于 2013 年 7 月 12 日，到现在已经数年的历史。从 1.5.2 版本到现在，一直保持公益模式，并且今后会继续坚持下去，只为提供高质量的纯净 Minecraft 游戏平台。
 
 我们仅支持无偿捐助，本着精益求精的原则，资金全用于服务器维护，捐助者可以在服务器便捷菜单上留名纪念，不会给予权限，物品等实质性奖励。游戏内玩家人人平等，劳动创造财富，让你享受公平的 Minecraft 游戏。
+
+第三大道公益服已于数年前长期关闭，重新开服时间未知。
+
+<img src="https://github.com/ShangJixin/www.disandadao.org/assets/21075413/11e0c6a9-ab43-4104-b927-5c4b43d89604" align="right" alt="Family" width="300">
 
 - 一周目：无
 - 二周目：2013 年
