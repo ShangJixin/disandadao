@@ -12,9 +12,9 @@
 
 我们仅支持无偿捐助，本着精益求精的原则，资金全用于服务器维护，捐助者可以在服务器便捷菜单上留名纪念，不会给予权限，物品等实质性奖励。游戏内玩家人人平等，劳动创造财富，让你享受公平的 Minecraft 游戏。
 
-第三大道公益服已于数年前长期关闭，重新开服时间未知。
-
 <img src="https://github.com/ShangJixin/www.disandadao.org/assets/21075413/11e0c6a9-ab43-4104-b927-5c4b43d89604" align="right" alt="Family" width="520">
+
+第三大道公益服已于数年前长期关闭，重新开服时间未知。
 
 - 一周目：无
 - 二周目：2013 年
@@ -44,7 +44,7 @@
 
 关于本仓库的部署与构建方法，与大多数 Vue2 项目基本一致。如需操作，可参照下文。
 
-项目仓库地址：https://github.com/ShangJixin/www.disandadao.org/
+项目仓库地址：[https://github.com/ShangJixin/www.disandadao.org/](https://github.com/ShangJixin/www.disandadao.org/)
 
 首先，需要下载 Node.js，解决好 npm 与 vue 构建环境，即可进行接下来的步骤。
 
