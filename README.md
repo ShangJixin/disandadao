@@ -14,7 +14,7 @@
 
 第三大道公益服已于数年前长期关闭，重新开服时间未知。
 
-<img src="https://github.com/ShangJixin/www.disandadao.org/assets/21075413/11e0c6a9-ab43-4104-b927-5c4b43d89604" align="right" alt="Family" width="300">
+<img src="https://github.com/ShangJixin/www.disandadao.org/assets/21075413/11e0c6a9-ab43-4104-b927-5c4b43d89604" align="right" alt="Family" width="520">
 
 - 一周目：无
 - 二周目：2013 年
