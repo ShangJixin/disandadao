@@ -1,0 +1,225 @@
+@charset "UTF-8";
+
+/* https://developer.harmonyos.com/cn/docs/design/font-0000001157868583 */
+@font-face {
+    font-family: 'HarmonyOS Sans';
+    src: url('./fonts/HarmonyOS_Sans.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background: #e4e7ed;
+    font-family: 'HarmonyOS Sans';
+    -webkit-text-size-adjust: none;
+}
+
+::selection {
+    background: #d3d3d3;
+    color: inherit;
+}
+
+::-webkit-scrollbar {
+    /*width: 0px;*/
+}
+
+.grid-frame {
+    display: grid;
+    grid-template-columns: 5fr 3fr;
+    padding: 10px;
+    grid-gap: 10px;
+}
+
+@media screen and (max-width: 900px) {
+    .grid-frame {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (min-width: 1800px) {
+    .grid-frame {
+        grid-template-columns: 5fr 2fr;
+    }
+}
+
+.landing {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.backdrop {
+    height: calc(100vh - 20px);
+    position: relative;
+    background: #fff;
+    background: url('./image/background.png') no-repeat center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: hsla(0,0%,98%,.8);
+    -webkit-backdrop-filter: blur(9px);
+    backdrop-filter: blur(9px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cover .main {
+    padding: 20px 30px;
+}
+
+.cover .main .logo {
+    max-width: 330px;
+    margin-top: 30px;
+}
+
+h1.title {
+    margin: 40px 0 0 0;
+    font-size: 25px;
+    text-align: center;
+    color: #333;
+    text-transform: uppercase;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 30px;
+    letter-spacing: 3px;
+    color: #666;
+}
+
+.content-area h2.title {
+    margin: 40px 0 0 0;
+    font-size: 25px;
+    color: #333;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.content-area .subtitle {
+    text-align: left;
+    font-size: 16px;
+    margin-bottom: 30px;
+    letter-spacing: 3px;
+    color: #666;
+}
+
+.btn-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.btn-box a {
+    color: #637599;
+    text-decoration: none;
+    border: 1px solid #637599;
+    padding: 7px 15px;
+    letter-spacing: 1px;
+    margin: 0 10px;
+    text-transform: uppercase;
+}
+
+.content-area {
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 30px;
+    max-height: calc(100vh - 80px);
+    overflow-y: scroll;
+}
+
+@media screen and (max-width: 900px) {
+    .content-area {
+        max-height: unset;
+        overflow-y: auto;
+    }
+}
+
+blockquote.tip {
+    padding: 10px 20px;
+    margin: 0;
+    background: #637599;
+    color: #fff;
+    text-align: center;
+}
+
+.content-area p {
+    margin: 10px 0;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.content-area img {
+    max-width: 100%;
+}
+
+.content-area .zhoumu {
+    border: 1px dashed #637599;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.content-area .zhoumu .block {
+    height: 40px;
+    width: 40px;
+}
+
+.content-area .zhoumu .info {
+    text-align: center;
+}
+
+.content-area a {
+    text-decoration: none;
+    color: #637599;
+    word-break: break-all;
+}
+
+.icp {
+    background: #e4e7ed;
+    padding: 5px 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.icp p {
+    margin: 0;
+}
+
+.icp a {
+    font-size: 14px;
+}
+
+@media screen and (max-width: 600px) {
+    .backdrop {
+        height: 200px;
+    }
+
+    .cover .main {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .cover .main .logo {
+        width: 33%;
+        max-width: unset;
+        margin-top: 0;
+    }
+}
