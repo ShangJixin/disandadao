@@ -46,7 +46,7 @@ body {
 }
 
 .landing {
-    border-radius: 10px;
+    border-radius: 20px;
     overflow: hidden;
 }
 
@@ -133,11 +133,21 @@ h1.title {
 
 .content-area {
     background: #fff;
-    border-radius: 10px;
+    border-radius: 20px;
     overflow: hidden;
-    padding: 30px;
-    max-height: calc(100vh - 80px);
+    padding: 0 30px 30px;
+    max-height: calc(100vh - 50px);
     overflow-y: scroll;
+}
+
+.content-area .xht {
+    background: #e4e7ed;
+    height: 3px;
+    border-radius: 3px;
+    width: 64px;
+    margin: 20px 0;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 @media screen and (max-width: 900px) {
@@ -163,6 +173,12 @@ blockquote.tip {
 
 .content-area img {
     max-width: 100%;
+}
+
+.content-area img.big-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .content-area blockquote {
@@ -218,20 +234,37 @@ blockquote.tip {
 }
 
 @media screen and (max-width: 600px) {
+    .grid-frame {
+        padding: 0;
+        grid-gap: 0;
+    }
+    
+    .landing {
+        border-radius: unset;
+    }
+    
+    .content-area {
+        border-radius: 20px 20px 0 0;
+        margin-top: -20px;
+        z-index: 999;
+    }
+    
     .backdrop {
-        height: 200px;
+        height: 300px;
     }
 
     .cover .main {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+        display: grid;
         gap: 20px;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        padding: 0 20px;
     }
 
     .cover .main .logo {
-        width: 33%;
-        max-width: unset;
-        margin-top: 0;
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0;
     }
 }
